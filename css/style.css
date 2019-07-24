@@ -1,0 +1,29 @@
+/* --------------------------------------------------------
+Style for Shop cart
+
+version: 1.0
+last modified: 24.07.2019
+author: Malek Gorchene
+email: malek.gorchene@gmail.com
+----------------------------------------------------------*/
+
+/* General Style */
+
+/* Items Style */
+#items{
+    padding : 50px 0;
+}
+#items>div>div{
+    margin-bottom : 30px;
+}
+#items svg{
+    stroke: black;
+    stroke-width: 2px;
+    fill : white;
+}
+#items svg:hover{
+    stroke: red;
+}
+#items svg.like{
+    fill : red;
+}
